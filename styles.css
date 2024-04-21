@@ -1,0 +1,208 @@
+* {
+    margin: 2px;
+    padding: 0px;
+}
+
+body {
+    background: repeating-radial-gradient(#13d0a1, #259f8d, #14ba80);
+    border: 5px solid rgb(246, 36, 4);
+    height: 440px;
+    width: 275px;
+    font-family: Arial, 'Arial Narrow', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+body.light {
+    background-color: rgb(239, 56, 0);
+}
+
+.header {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-container {
+    height: 60px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid rgb(239, 56, 0);
+    background-color: rgb(130, 193, 78); /* Change this color to the suitable color with the document */
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.github-link {
+    height: 60px;
+    width: 60px;
+    background: radial-gradient(rgb(200, 192, 192), rgb(130, 193, 78), rgb(72, 213, 41));
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: black; /* Change the font color to black */
+    text-decoration: none;
+    text-align: left;
+}
+
+.github-link:hover {
+    font-size: 28px;
+}
+
+.github-link.light {
+    color: black;
+}
+
+#dark-mode {
+    align-items: center;
+    width: 40px;
+}
+
+#extension_name {
+    flex: 1;
+    font-size: 25px;
+    text-align: center;
+    align-self: center;
+    font-weight: bold;
+    color: white;
+}
+
+#extension_name.light {
+    color: black;
+}
+
+#b1 {
+    width: 80%;
+    height: 50px;
+    background: linear-gradient(#ffab07, #f8d609);
+    outline: none;
+    border-radius: 5px;
+    background-color: #041F30;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#b1:hover {
+    cursor: pointer;
+    transition: 0.01s ease-in-out 0.01s;
+    background: #f1b00cd2;
+    color: black;
+    font-size: 24px;
+    opacity: 0.9;
+}
+
+#b_image {
+    width: 1px;
+    height: 1px;
+}
+
+#logo {
+    width: 48px;
+    height: 48px;
+}
+
+#count {
+    font-weight: bold;
+    color: red;
+    font-size: 26px;
+}
+
+#gitlogo {
+    height: 25px;
+}
+
+#collapsibleCategory {
+    width: 100%;
+    display: none;
+}
+
+.btn {
+    height: 50px;
+    width: 100%;
+    border: 3px solid black;
+    font-weight: light;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+    background-color: #ffab07;
+}
+
+.foot {
+    height: 20px;
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+p {
+    font-size: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    /* border: 5px solid red; */
+    width: 250px;
+    height: 458px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    overflow: hidden;
+    margin: 2px;
+}
+
+/* CHANGES HERE */
+#extension_name {
+    flex: 1;
+    font-size: 25px;
+    text-align: center;
+    align-self: center;
+    font-weight: bold;
+    color: black; /* Changed to black */
+}
+.counter-container {
+    height: 60px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 6px solid rgb(239, 56, 0);
+    background-color: repeating-radial-gradient(#13d0a1, #259f8d, #14ba80); /* Changed to match the document */
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    flex-direction: column;
+}

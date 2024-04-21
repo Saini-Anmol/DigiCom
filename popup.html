@@ -1,0 +1,44 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dark-Pattern-Detector</title>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.4.0/dist/tesseract.min.js"></script>
+
+    <div class="container">
+        <div class="header">
+            <!-- <img src="logo.png" id="logo"> -->
+            <span id="extension_name">Dark Pattern Detector</span>
+            <!-- <button id="dark-mode"></button> -->
+        </div>
+        <div class="button-container">
+             <button id="b1">
+                <img src="button_off.svg" id="b_image">CHECK HERE
+             </button>
+        </div>  
+        <div class="counter-container" id="categoryShow">
+            
+            <div style="font-size:23px">Total Dark Patterns Found: 
+                <span id="count">0</span>
+            </div>
+        
+            <div id="collapsibleCategory">
+                <ul id="categoryList">
+                </ul>
+            </div>
+        </div>
+        <div class="foot">
+            <a href="https://en.wikipedia.org/wiki/Dark_pattern" target="_blank" rel=“noopener noreferrer” class="github-link">
+                <i class="fa-solid fa-plus"></i><p>About Dark Patterns</p>
+            </a>
+            // <a href="" target="_blank" rel=“noopener noreferrer” class="github-link" style="text-align:right;" ><i class="fa-solid fa-house"></i> <p>About Extension</p></a>
+            
+        </div>
+    </div>
+</body>
+</html>
