@@ -10,3 +10,5 @@ The browser extension uses a dataset of 1818 identified dark patterns to apply a
 In "DigiCom," we integrated Reinforcement Learning (RL), leveraging its suitability for dynamic environment tasks. Crucially, RL excels in Real-Time decision-making, allowing "DigiCom" to promptly adapt to evolving dark patterns.
 
 In "DigiCom," we utilized the Selenium Python Library to detect default checkbox selections in shopping carts, addressing potential issues such as overcharging and granting access caused by dark patterns.
+
+![image](https://github.com/Saini-Anmol/DigiCom/assets/114739487/ac2e2f64-9977-4f69-be9c-7446380ff3de)
